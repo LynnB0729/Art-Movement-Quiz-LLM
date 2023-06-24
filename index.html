@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Art Movement Personality Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Art Movement Personality Quiz</h1>
+    <form id="quiz">
+        <div class="question">
+            <label for="color">Choose a color that resonates with you:</label>
+            <select id="color" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Gold</option>
+                <option value="Gothic Art">Deep Blue</option>
+                <option value="Renaissance Art">Bright Red</option>
+                <option value="Baroque Art">Dark Green</option>
+                <option value="Romanticism">Purple</option>
+                <option value="Impressionism">Light Blue</option>
+                <option value="Post-Impressionism">Yellow</option>
+                <option value="Cubism">Grey</option>
+                <option value="Surrealism">Teal</option>
+                <option value="Abstract Expressionism">Orange</option>
+                <option value="Pop Art">Bright Pink</option>
+                <option value="Contemporary Art">White</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="perfectDay">Describe your perfect day:</label>
+            <select id="perfectDay" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Exploring ancient ruins and learning about
+                    history
+                </option>
+                <option value="Gothic Art">Attending a religious ceremony</option>
+                <option value="Renaissance Art">Creating a masterpiece in your art studio</option>
+                <option value="Baroque Art">Hosting a lavish party for your friends</option>
+                <option value="Romanticism">Going on an adventurous hike in nature</option>
+                <option value="Impressionism">Having a picnic in a beautiful park</option>
+                <option value="Post-Impressionism">Painting a landscape outdoors</option>
+                <option value="Cubism">Visiting a modern art museum</option>
+                <option value="Surrealism">Writing a dream journal</option>
+                <option value="Abstract Expressionism">Expressing your emotions through dance</option>
+                <option value="Pop Art">Shopping for trendy clothes</option>
+                <option value="Contemporary Art">Attending a contemporary art exhibit</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="quote">Which quote resonates with you the most?</label>
+            <select id="quote" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">"The purpose of life is to live it, to taste
+                    experience to the utmost, to reach out eagerly and without fear for newer and richer experience." -
+                    Eleanor
+                    Roosevelt</option>
+                <option value="Gothic Art">"Faith is to believe what you do not see; the reward of this faith is to see
+                    what you
+                    believe." - Saint Augustine</option>
+                <option value="Renaissance Art">"The noblest pleasure is the joy of understanding." - Leonardo da Vinci
+                </option>
+                <option value="Baroque Art">"I must create a master piece to express myself!" - Rembrandt</option>
+                <option value="Romanticism">"I am seeking. I am striving. I am in it with all my heart." - Vincent van
+                    Gogh
+                </option>
+                <option value="Impressionism">"I perhaps owe having become a painter to flowers." - Claude Monet
+                </option>
+                <option value="Post-Impressionism">"I dream my painting and I paint my dream." - Vincent van Gogh
+                </option>
+                <option value="Cubism">"Art is a lie that makes us realize truth." - Pablo Picasso</option>
+                <option value="Surrealism">"I don't do drugs. I am drugs." - Salvador Dali</option>
+                <option value="Abstract Expressionism">"The painting has a life of its own." - Jackson Pollock</option>
+                <option value="Pop Art">"Art is what you can get away with." - Andy Warhol</option>
+                <option value="Contemporary Art">"Art is anything you can get away with." - Marshall McLuhan</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="activity">What activity sounds the most fun to you?</label>
+            <select id="activity" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Exploring a historical site or museum
+                </option>
+                <option value="Gothic Art">Attending a religious ceremony</option>
+                <option value="Renaissance Art">Creating a masterpiece in your art studio</option>
+                <option value="Baroque Art">Hosting a lavish party for your friends</option>
+                <option value="Romanticism">Going on an adventurous hike in nature</option>
+                <option value="Impressionism">Having a picnic in a beautiful park</option>
+                <option value="Post-Impressionism">Painting a landscape outdoors</option>
+                <option value="Cubism">Visiting a modern art museum</option>
+                <option value="Surrealism">Writing a dream journal</option>
+                <option value="Abstract Expressionism">Expressing your emotions through dance</option>
+                <option value="Pop Art">Shopping for trendy clothes</option>
+                <option value="Contemporary Art">Attending a contemporary art exhibit</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="placeToVisit">Which place would you most like to visit?</label>
+            <select id="placeToVisit" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">The Egyptian Museum, Egypt</option>
+                <option value="Gothic Art">Notre-Dame Cathedral, France</option>
+                <option value="Renaissance Art">The Uffizi Gallery, Italy</option>
+                <option value="Baroque Art">The Palace of Versailles, France</option>
+                <option value="Romanticism">The Lake District, UK</option>
+                <option value="Impressionism">Monet's Gardens in Giverny, France</option>
+                <option value="Post-Impressionism">Van Gogh Museum, Netherlands</option>
+                <option value="Cubism">Reina Sofia Museum, Spain</option>
+                <option value="Surrealism">The Dali Theatre-Museum, Spain</option>
+                <option value="Abstract Expressionism">The Pollock-Krasner House, USA</option>
+                <option value="Pop Art">The Andy Warhol Museum, USA</option>
+                <option value="Contemporary Art">The Museum of Modern Art (MoMA), USA</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="descriptiveWord">Choose a word that describes you:</label>
+            <select id="descriptiveWord" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Curious</option>
+                <option value="Gothic Art">Faithful</option>
+                <option value="Renaissance Art">Creative</option>
+                <option value="Baroque Art">Extravagant</option>
+                <option value="Romanticism">Passionate</option>
+                <option value="Impressionism">Observant</option>
+                <option value="Post-Impressionism">Expressive</option>
+                <option value="Cubism">Innovative</option>
+                <option value="Surrealism">Dreamy</option>
+                <option value="Abstract Expressionism">Emotional</option>
+                <option value="Pop Art">Trendy</option>
+                <optionvalue="Contemporary Art">Progressive</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="bookPreference">What type of books do you prefer to read?</label>
+            <select id="bookPreference" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Historical fiction</option>
+                <option value="Gothic Art">Religious texts</option>
+                <option value="Renaissance Art">Biographies of artists</option>
+                <option value="Baroque Art">Epic dramas</option>
+                <option value="Romanticism">Adventure novels</option>
+                <option value="Impressionism">Descriptive novels</option>
+                <option value="Post-Impressionism">Emotional dramas</option>
+                <option value="Cubism">Experimental literature</option>
+                <option value="Surrealism">Fantasy novels</option>
+                <option value="Abstract Expressionism">Poetry</option>
+                <option value="Pop Art">Pop culture magazines</option>
+                <option value="Contemporary Art">Contemporary fiction</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="personalStyle">How would you describe your personal style?</label>
+            <select id="personalStyle" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Classic</option>
+                <option value="Gothic Art">Traditional</option>
+                <option value="Renaissance Art">Elegant</option>
+                <option value="Baroque Art">Glamorous</option>
+                <option value="Romanticism">Bohemian</option>
+                <option value="Impressionism">Casual</option>
+                <option value="Post-Impressionism">Artistic</option>
+                <option value="Cubism">Edgy</option>
+                <option value="Surrealism">Quirky</option>
+                <option value="Abstract Expressionism">Expressive</option>
+                <option value="Pop Art">Trendy</option>
+                <option value="Contemporary Art">Minimalist</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="musicPreference">What type of music do you prefer?</label>
+            <select id="musicPreference" onchange="updateScore(this)">
+                <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">Classical</option>
+                <option value="Gothic Art">Choral</option>
+                <option value="Renaissance Art">Chamber music</option>
+                <option value="Baroque Art">Orchestral</option>
+                <option value="Romanticism">Symphonic</option>
+                <option value="Impressionism">Jazz</option>
+                <option value="Post-Impressionism">Blues</option>
+                <option value="Cubism">Avant-garde</option>
+                <option value="Surrealism">Psychedelic rock</option>
+                <option value="Abstract Expressionism">Free jazz</option>
+                <option value="Pop Art">Pop</option>
+                <option value="Contemporary Art">Electronic</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <labelfor="lifeApproach">How do you approach life?</label>
+                <select id="lifeApproach" onchange="updateScore(this)">
+                    <option value="Ancient Art (Egyptian, Greek, Roman, etc.)">With curiosity and a thirst for knowledge
+                    </option>
+                    <option value="Gothic Art">With faith and devotion</option>
+                    <option value="Renaissance Art">With creativity and a desire to learn</option>
+                    <option value="Baroque Art">With extravagance and a love for drama</option>
+                    <option value="Romanticism">With passion and intensity</option>
+                    <option value="Impressionism">With a love for nature and the simple things in life</option>
+                    <option value="Post-Impressionism">With a desire to express my emotions</option>
+                    <option value="Cubism">With a desire to innovate and challenge conventions</option>
+                    <option value="Surrealism">With a love for dreams and the subconscious</option>
+                    <option value="Abstract Expressionism">With a need to express my inner world</option>
+                    <option value="Pop Art">With a love for popular culture and consumerism</option>
+                    <option value="Contemporary Art">With an open mind and a desire to challenge the status quo</option>
+                </select>
+        </div>
+
+
+        <!-- Add the rest of the questions here in the same format -->
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
