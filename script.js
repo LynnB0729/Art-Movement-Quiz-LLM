@@ -58,7 +58,7 @@ var fashionItems = {
     },
     "Gothic Art": {
         "item": "Long, flowing robes and intricate jewelry",
-        "image": "/Users/lynnbailey/Documents/GitHub/Art-Movement-Quiz/Art-Movement-Quiz-LLM/images/Gothic.png",
+        "image": "images/Gothic.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Renaissance Art": {
