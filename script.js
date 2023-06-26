@@ -68,7 +68,7 @@ var fashionItems = {
     },
     "Baroque Art": {
         "item": "Extravagant, ornate clothing and accessories",
-        "image": "https://example.com/images/baroque_clothing.jpg",
+        "image": "/images/Baroque.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Romanticism": {
