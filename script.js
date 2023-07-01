@@ -53,22 +53,22 @@ form.addEventListener("submit", calculateResults);
 var fashionItems = {
     "Ancient Art (Egyptian, Greek, Roman, etc.)": {
         "item": "Toga and sandals",
-        "image": "https://example.com/images/toga_and_sandals.jpg",
+        "image": "", 
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Gothic Art": {
         "item": "Long, flowing robes and intricate jewelry",
-        "image": "/images/Gothic.png",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Renaissance Art": {
         "item": "Elegant dresses and suits with ruffles",
-        "image": "https://example.com/images/renaissance_dress.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Baroque Art": {
         "item": "Extravagant, ornate clothing and accessories",
-        "image": "images/Baroque.png",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Romanticism": {
@@ -78,22 +78,22 @@ var fashionItems = {
     },
     "Impressionism": {
         "item": "Casual, comfortable clothing in light colors",
-        "image": "https://example.com/images/impressionism_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Post-Impressionism": {
         "item": "Bold, colorful prints",
-        "image": "https://example.com/images/post_impressionism_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Cubism": {
         "item": "Geometric clothing and accessories",
-        "image": "https://example.com/images/cubism_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Surrealism": {
         "item": "Quirky, unexpected combinations and accessories",
-        "image": "https://example.com/images/surrealism_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Abstract Expressionism": {
@@ -103,12 +103,12 @@ var fashionItems = {
     },
     "Pop Art": {
         "item": "Bright, bold colors and graphic prints",
-        "image": "https://example.com/images/pop_art_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Contemporary Art": {
         "item": "Minimalist, modern clothing",
-        "image": "https://example.com/images/contemporary_art_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     }
 };
