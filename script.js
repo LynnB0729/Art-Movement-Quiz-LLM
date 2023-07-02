@@ -28,10 +28,28 @@ function calculateResults(event) {
             maxCount = counts[artMovement];
             maxArtMovement = artMovement;
         }
+
+    var propertyName = mapArtMovementToPropertyName(maxArtMovement);
+    var fashionItem = fashionItems[propertyName];
+    var bookSuggestion = bookSuggestions[propertyName];
     }
+
     var result = document.getElementById("result");
     result.innerHTML = "Your art movement is: " + maxArtMovement;
 
+    function mapArtMovementToPropertyName(artMovement) {
+    switch (artMovement) {
+        case "Ancient Art (Egyptian, Greek, Roman, etc.)":
+            return "Ancient Art (Egyptian, Greek, Roman, etc.)";
+        case "Gothic Art":
+            return "Gothic Art";
+        case "Renaissance Art":
+            return "Renaissance Art";
+        // Add the rest of the cases here...
+        default:
+            return null;
+    }
+}
     //var fashionItem = fashionItems[maxArtMovement];
     //result.innerHTML += "<br>Your fashion item is: " + fashionItem;
 
@@ -39,10 +57,31 @@ function calculateResults(event) {
     //result.innerHTML += "<br>Your book suggestion is: " + bookSuggestion;
     // Add the fashion item and book suggestion here
 
-    var fashionItem = fashionItems[maxArtMovement];
-    result.innerHTML += "<br>Your fashion item is: <a href='" + fashionItem.link + "'><img src='" + fashionItem.image + "' alt='" + fashionItem.item + "'>" + fashionItem.item + "</a>";
-    var bookSuggestion = bookSuggestions[maxArtMovement];
-    result.innerHTML += "<br>Your book suggestion is: <a href='" + bookSuggestion.link + "'><img src='" + bookSuggestion.image + "' alt='" + bookSuggestion.book + "'>" + bookSuggestion.book + "</a>";
+    //var fashionItem = fashionItems[maxArtMovement];
+    //result.innerHTML += "<br>Your fashion item is: <a href='" + fashionItem.link + "'><img src='" + fashionItem.image + "' alt='" + fashionItem.item + "'>" + fashionItem.item + "</a>";
+    //var bookSuggestion = bookSuggestions[maxArtMovement];
+    //result.innerHTML += "<br>Your book suggestion is: <a href='" + bookSuggestion.link + "'><img src='" + bookSuggestion.image + "' alt='" + bookSuggestion.book + "'>" + bookSuggestion.book + "</a>";
+
+//}
+var fashionItem = fashionItems[maxArtMovement];
+result.innerHTML += 
+"<div>Your fashion item is: </div><div><a href='" + 
+fashionItem.link + 
+"'><img src='" + fashionItem.image + 
+"' alt='" + 
+fashionItem.item + "'></a></div><div><a href='" + 
+fashionItem.link + "'>" + 
+fashionItem.item + "</a></div>";
+var bookSuggestion = bookSuggestions[maxArtMovement];
+result.innerHTML += 
+"<div>Your book suggestion is: </div><div><a href='" + 
+bookSuggestion.link + "'><img src='" + 
+bookSuggestion.image + 
+"' alt='" + bookSuggestion.book + "'></a></div><div><a href='" + 
+bookSuggestion.link + "'>" + 
+bookSuggestion.book + "</a></div>";
+
+
 
 }
 
