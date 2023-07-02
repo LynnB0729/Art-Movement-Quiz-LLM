@@ -98,7 +98,7 @@ var fashionItems = {
     },
     "Abstract Expressionism": {
         "item": "Freestyle, anything that makes you feel good",
-        "image": "https://example.com/images/abstract_expressionism_clothing.jpg",
+        "image": "",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Pop Art": {
