@@ -53,47 +53,47 @@ form.addEventListener("submit", calculateResults);
 var fashionItems = {
     "Ancient Art (Egyptian, Greek, Roman, etc.)": {
         "item": "Toga and sandals",
-        "image": "", 
+        "image": "/images/toga-small.png", 
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Gothic Art": {
         "item": "Long, flowing robes and intricate jewelry",
-        "image": "",
+        "image": "/images/gothic-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Renaissance Art": {
         "item": "Elegant dresses and suits with ruffles",
-        "image": "",
+        "image": "/images/renaissance-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Baroque Art": {
         "item": "Extravagant, ornate clothing and accessories",
-        "image": "",
+        "image": "/images/baroque-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Romanticism": {
         "item": "Flowy, ethereal dresses",
-        "image": "https://example.com/images/romanticism_dress.jpg",
+        "image": "/images/romanticism-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Impressionism": {
         "item": "Casual, comfortable clothing in light colors",
-        "image": "",
+        "image": "/images/impressionism-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Post-Impressionism": {
         "item": "Bold, colorful prints",
-        "image": "",
+        "image": "/images/post-impression-small-file.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Cubism": {
         "item": "Geometric clothing and accessories",
-        "image": "",
+        "image": "/images/cubism-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Surrealism": {
         "item": "Quirky, unexpected combinations and accessories",
-        "image": "",
+        "image": "/images/surrealism-small.png",
         "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
     },
     "Abstract Expressionism": {
