@@ -84,8 +84,6 @@ bookSuggestion.image +
 bookSuggestion.link + "'>" + 
 bookSuggestion.book + "</a></div>";
 
-
-
 }
 
 // Add an event listener to the form
@@ -103,70 +101,69 @@ var fashionItems = {
         "item": "Long, flowing robes and intricate jewelry",
         "image": "images/gothic-small.png",
         "image2": "images/Gothic.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/Scarlet-Darkness-Lace-Trim-Two-Tone-Skirt-p-11195538-cat-1732.html?url_from=gpt"
     },
     "Renaissance Art": {
         "item": "Elegant dresses and suits with ruffles",
         "image": "images/renaissance-small.png",
         "image2": "images/renaissance.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-VCAY-Ditsy-Floral-Print-Flounce-Sleeve-Shirred-Dress-p-10729608-cat-1727.html?url_from=gpt"
     },
     "Baroque Art": {
         "item": "Extravagant, ornate clothing and accessories",
         "image": "images/baroque-small.png",
         "image2": "images/Baroque.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-LUNE-Paisley-Scarf-Print-Surplice-Neck-Belted-Dress-p-11520690-cat-1727.html?url_from=gpt"
     },
     "Romanticism": {
         "item": "Flowy, ethereal dresses",
         "image": "images/romanticism-small.png",
         "image2": "images/romanticism.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-MOD-Floral-Print-Lace-Up-Corset-Detail-Ruched-Bust-Dress-p-12360026-cat-1727.html?url_from=gpt"
     },
     "Impressionism": {
         "item": "Casual, comfortable clothing in light colors",
         "image": "images/impressionism-small.png",
         "image2": "images/impressionism.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/DAZY-High-Waist-Plicated-Detail-Pants-p-14461491-cat-1740.html?url_from=gpt"
     },
     "Post-Impressionism": {
         "item": "Bold, colorful prints",
         "image": "images/post-impression-small-file.png",
         "image2": "images/post impressionism.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-VCAY-Allover-Floral-Print-Cami-Dress-p-12603796-cat-1727.html?url_from=gpt"
     },
     "Cubism": {
         "item": "Geometric clothing and accessories",
         "image": "images/cubism-small.png",
         "image2": "images/cubism-dress.png",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-MOD-Solid-Lace-Up-Cami-Dress-p-15331161-cat-1727.html?url_from=gpt&main_attr=27_1000119&mallCode=1"
     },
     "Surrealism": {
         "item": "Quirky, unexpected combinations and accessories",
         "image": "images/surrealism-small.png",
         "image2": "images/surrealism-hat.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/Wide-Brim-Straw-Hat-p-13441884-cat-5903.html?url_from=gpt"
     },
     "Abstract Expressionism": {
         "item": "Freestyle, anything that makes you feel good",
         "image": "images/abstract-expressionism-small.png",
         "image2": "images/abstract-expressionism-dress.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-VCAY-Geo-Print-Shirred-Back-Cami-Dress-p-15825847-cat-1727.html?url_from=gpt"
     },
     "Pop Art": {
         "item": "Bright, bold colors and graphic prints",
         "image": "images/pop-art-small.png",
         "image2": "images/pop-art.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/SHEIN-LUNE-Allover-Print-Drop-Shoulder-Overcoat-p-11930666-cat-3051.html?url_from=gpt"
     },
     "Contemporary Art": {
         "item": "Minimalist, modern clothing",
         "image": "images/contemporary-art-small.png",
         "image2": "images/contemporary-art-gown.jpg",
-        "link": "https://www.amazon.com/dp/B07H9HJLG5?tag=your_affiliate_id"
+        "link": "https://us.shein.com/MIUSOL-Floral-Lace-Bodice-Chiffon-Ribbon-Waist-Maxi-Formal-Dress-p-1381822-cat-5361.html?url_from=gpt"
     }
 };
-
 
 var bookSuggestions = {
     "Ancient Art (Egyptian, Greek, Roman, etc.)": {
